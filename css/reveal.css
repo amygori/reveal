@@ -306,22 +306,25 @@ body {
   display: block;
   position: relative;
   width: 90%;
-  margin: 15px auto;
-
-  text-align: left;
-  font-size: 0.55em;
-  font-family: monospace;
+  margin: 15px;
+  background-color: lightgoldenrodyellow;
+  text-align: left ;
+  padding-left: 15px;
+  font-size: 0.6em;
+  font-family: "Droid Sans Mono", monospace;
   line-height: 1.2em;
 
   word-wrap: break-word;
 }
 .reveal pre code {
-    box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
-  padding: 5px;
+/*    box-shadow: 0px 0px 6px rgba(0,0,0,0.5);
+*/  padding: 10px;
 }
 
 .reveal code {
-  font-family: monospace;
+  font-family: "Droid Sans Mono", monospace;
+  color: darkslategray;
+  font-weight: 400;
   overflow: auto;
   max-height: 400px;
 }
